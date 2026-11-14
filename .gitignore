@@ -1,0 +1,8 @@
+config.py
+panel_state.json
+panel_state.json.tmp
+__pycache__/
+*.pyc
+.env
+venv/
+.venv/

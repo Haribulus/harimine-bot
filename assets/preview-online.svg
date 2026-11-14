@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 330" width="100%" height="100%">
+  <rect width="640" height="330" rx="10" fill="#313338"/>
+  <circle cx="40" cy="38" r="18" fill="#5865F2"/>
+  <text x="40" y="44" font-family="system-ui, sans-serif" font-size="16" font-weight="700" fill="#FFFFFF" text-anchor="middle">H</text>
+  <text x="68" y="35" font-family="system-ui, sans-serif" font-size="15" font-weight="600" fill="#F2F3F5">Harimine Bot</text>
+  <rect x="170" y="22" width="34" height="16" rx="3" fill="#5865F2"/>
+  <text x="187" y="34" font-family="system-ui, sans-serif" font-size="10" font-weight="700" fill="#FFFFFF" text-anchor="middle">APP</text>
+  <text x="212" y="35" font-family="system-ui, sans-serif" font-size="11" fill="#949BA4">Today at 14:20</text>
+
+  <rect x="68" y="48" width="500" height="210" rx="6" fill="#2B2D31"/>
+  <rect x="68" y="48" width="4" height="210" rx="2" fill="#23A55A"/>
+
+  <text x="88" y="76" font-family="system-ui, sans-serif" font-size="15" font-weight="700" fill="#F2F3F5">Minecraft Server</text>
+
+  <text x="88" y="108" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#B5BAC1">Status</text>
+  <circle cx="95" cy="125" r="5" fill="#23A55A"/>
+  <text x="106" y="129" font-family="system-ui, sans-serif" font-size="13" fill="#DBDEE1">Online</text>
+
+  <text x="240" y="108" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#B5BAC1">Memory (RAM)</text>
+  <text x="240" y="129" font-family="system-ui, sans-serif" font-size="13" fill="#DBDEE1">2450 MB</text>
+
+  <text x="390" y="108" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#B5BAC1">CPU Load</text>
+  <text x="390" y="129" font-family="system-ui, sans-serif" font-size="13" fill="#DBDEE1">14.2%</text>
+
+  <text x="88" y="164" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#B5BAC1">Players Online</text>
+  <text x="88" y="185" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#F2F3F5">4 / 20</text>
+
+  <text x="240" y="164" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#B5BAC1">Uptime</text>
+  <text x="240" y="185" font-family="system-ui, sans-serif" font-size="13" fill="#DBDEE1">2d 5h 18m</text>
+
+  <text x="88" y="218" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#B5BAC1">Last Check</text>
+  <rect x="88" y="226" width="104" height="18" rx="3" fill="#35373C"/>
+  <text x="140" y="239" font-family="system-ui, sans-serif" font-size="12" fill="#DBDEE1" text-anchor="middle">2 minutes ago</text>
+
+  <rect x="68" y="270" width="90" height="34" rx="4" fill="#1E5332" opacity="0.45"/>
+  <text x="113" y="292" font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="#949BA4" text-anchor="middle">▶ Start</text>
+
+  <rect x="166" y="270" width="104" height="34" rx="4" fill="#5865F2"/>
+  <text x="218" y="292" font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="#FFFFFF" text-anchor="middle">↻ Restart</text>
+
+  <rect x="278" y="270" width="90" height="34" rx="4" fill="#DA373C"/>
+  <text x="323" y="292" font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="#FFFFFF" text-anchor="middle">■ Stop</text>
+
+  <rect x="376" y="270" width="104" height="34" rx="4" fill="#4E5058"/>
+  <text x="428" y="292" font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="#FFFFFF" text-anchor="middle">⟳ Refresh</text>
+</svg>
