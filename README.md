@@ -12,33 +12,20 @@ Real-time Discord control panel for Minecraft servers running on **Pelican** or 
 ## 🖼️ Panel Previews
 
 <p align="center">
-  <img src="assets/preview-online.svg" alt="Discord Panel Online State" width="49%" />
-  <img src="assets/preview-offline.svg" alt="Discord Panel Offline State" width="49%" />
-  <br>
-  <em>Left: Server Online (Start disabled, Restart &amp; Stop active) • Right: Server Offline (Start active, Restart &amp; Stop disabled)</em>
+  <img src="assets/preview-online.svg" alt="Discord Panel Online State" width="48%" />
+  <img src="assets/preview-offline.svg" alt="Discord Panel Offline State" width="48%" />
+</p>
+<p align="center">
+  <em><b>Online State:</b> Start disabled, Restart &amp; Stop active &nbsp;|&nbsp; <b>Offline State:</b> Start active, Restart &amp; Stop disabled</em>
 </p>
 
 ---
 
 ## 🏗️ Architecture & Data Flow
 
-~~~mermaid
-graph TD
-    User(["Discord Admin / Whitelisted User"]) -->|"/panel command"| Bot["Harimine Bot (discord.py)"]
-    User -->|"Click Start / Restart / Stop"| Bot
-
-    subgraph Engine ["Harimine Bot Async Engine"]
-        Bot -->|"Background Poll Loop (30s)"| APIReq["HTTP Client (aiohttp)"]
-        Bot -->|"Async Status Ping"| MCPing["Minecraft Query (mcstatus)"]
-    end
-
-    APIReq -->|"GET /resources & POST /power"| Panel[("Pelican / Pterodactyl API")]
-    MCPing -->|"TCP Ping (Port 25565)"| MCServer["Minecraft Dedicated Server"]
-
-    Panel -->|"JSON (State, RAM, CPU, Uptime)"| Bot
-    MCServer -->|"Online / Max Players"| Bot
-    Bot -->|"Smart Delta Cache & Edit Message"| DiscordChannel["Discord Text Channel"]
-~~~
+<p align="center">
+  <img src="assets/architecture.svg" alt="Harimine Bot Architecture and Data Flow" width="100%" />
+</p>
 
 ---
 
